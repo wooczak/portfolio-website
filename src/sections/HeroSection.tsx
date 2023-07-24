@@ -33,9 +33,9 @@ const HeroSection = () => {
           />
         </p>
         <div className="flex font-jet-brains gap-4 items-center pt-5 text-sm">
-          <p className="p-2 border-solid border-[0.8px]">linkedin</p>
+          <p className="custom-button">linkedin</p>
           <span className="w-[5px] h-[5px] aspect-square rounded-full bg-yellow-200"></span>
-          <p className="p-2 border-solid border-width border-[0.8px]">github</p>
+          <p className="custom-button">github</p>
         </div>
         <img src="/src/assets/img/photo-min.png" className="my-8" />
       </section>

@@ -37,7 +37,7 @@ const HeroSection = () => {
           <span className="w-[5px] h-[5px] aspect-square rounded-full bg-yellow-200"></span>
           <p className="custom-button">github</p>
         </div>
-        <img src="/src/assets/img/photo-min.png" className="my-8" />
+        <img src="/src/assets/img/photo-min.png" className="my-8 hidden md:block" />
       </section>
     </>
   );

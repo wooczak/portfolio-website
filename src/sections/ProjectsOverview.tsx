@@ -1,11 +1,12 @@
 import { Projects } from "../assets/constants/projects";
-import Project from "./Project";
+import Project from "../components/Project";
 
 const ProjectsOverview = () => {
   return (
-    <section className="mt-10 mb-10">
-      <h2 className="text-3xl mb-6 font-extrabold">Projects overview</h2>
-      {Projects?.map(({ name, description, stack, link, date, detailsAvailable }, index) => (
+    <section className="mt-[15vh] mb-14">
+      <h2 className="text-6xl font-extrabold">Projects</h2>
+      <h2 className="text-6xl font-extrabold -translate-y-3 translate-x-4 mb-5">overview</h2>
+      {Projects?.map(({ name, description, stack, link, date }, index) => (
         <Project
           name={name}
           description={description}
@@ -14,7 +15,6 @@ const ProjectsOverview = () => {
           link={link}
           key={index}
           index={index}
-          detailsAvailable={detailsAvailable}
         />
       ))}
     </section>

@@ -20,10 +20,12 @@ export default {
         firebase: "#FFA000",
         tailwind: "#06B6D4",
         react: "#61DAFB",
-        jest: "#C21325",
         reacttestinglibrary: "#FFD700",
         vitest: "#39B982",
+        sass: "#c69",
+        jest: "#C63D14",
         datepurple: "#BA7AFE",
+        analytics: "#E37400",
         height: {
           "mobile-nav": "calc(100vh - 3.5rem)",
         },

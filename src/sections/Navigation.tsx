@@ -9,7 +9,7 @@ const Navigation = () => {
   }
 
   return (
-    <nav className="font-cabinet-grotesk py-5 sticky top-0">
+    <nav className="font-cabinet-grotesk py-5 sticky top-0 bg-black">
       <p className="text-xl inline-block">
         Kacper<span className="font-bold">Łuczak</span>
       </p>

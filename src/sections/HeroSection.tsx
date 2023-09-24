@@ -2,7 +2,7 @@ const HeroSection = () => {
   return (
     <>
       <section>
-        <h1 className="py-5 tracking-tight bg-cover bg-clip-text text-transparent text-[20vw] break-words font-black leading-none bg-[url(/src/assets/svg/gradient.svg)]">
+        <h1 className="py-5 tracking-tight bg-cover bg-clip-text text-transparent text-[88px] break-words font-black leading-none bg-[url(/src/assets/svg/gradient.svg)]">
           HELLO! MY NAME IS KACPER
         </h1>
         <p className="font-jet-brains text-sm leading-[1.35rem] max-w-[45ch]">

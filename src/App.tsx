@@ -1,5 +1,6 @@
 import HeroSection from "./sections/HeroSection"
 import Navigation from "./sections/Navigation"
+import Opinions from "./sections/Opinions"
 import ProjectsOverview from "./sections/ProjectsOverview"
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Navigation />
       <HeroSection />
       <ProjectsOverview />
+      <Opinions />
     </main>
   )
 }
